@@ -154,7 +154,7 @@ Para verificar se a aplicação está ok
 
 ```
 
-GET localhost:3000/healthCheck
+GET http://localhost:3000/healthCheck
 
 ```
 
@@ -168,7 +168,7 @@ Após iniciar a aplicação basta acessar o endpoint
 
 ```
 
-GET localhost:3000/docs
+GET http://localhost:3000/docs
 
 ```
 
@@ -202,7 +202,7 @@ Os commits devem seguir a convenção do commit lint
 - `perf`: melhorias de código que melhoram a performance
 - `test`: adicionado testes ou correção de algum
 
-Example:
+Exemplo:
 
 ```sh
 
