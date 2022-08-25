@@ -1,0 +1,8 @@
+.cache
+node_modules/
+build/
+README.md
+data/
+tsconfig.build.tsbuildinfo
+package.lock.json
+.git
