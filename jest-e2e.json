@@ -20,6 +20,7 @@
     "testEnvironment": "node",
     "globalSetup": "./global-setup.ts",
     "moduleNameMapper": {
-        "@modules/(.*)": "<rootDir>/src/modules/$1"
+        "@modules/(.*)": "<rootDir>/src/modules/$1",
+        "@shared/(.*)": "<rootDir>/src/shared/$1"
     }
 }

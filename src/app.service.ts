@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import { ApiCheck } from '@shared/doc-types';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  healthCheck(): ApiCheck {
+    return { status: 'ok', date: new Date() };
   }
 }
