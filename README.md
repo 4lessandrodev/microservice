@@ -11,6 +11,15 @@ Os comandos podem ser executados com:
 
 ## Como utilizar a cli
 
+Antes de tudo instale as dependências
+
+
+```sh
+
+$ yarn
+
+```
+
 Utilizando a cli com yarn
 
 
@@ -183,15 +192,15 @@ Os commits devem seguir a convenção do commit lint
 [optional footer(s)]
 
 ```
-
-- build: 
-- chore: 
-- ci: 
-- docs: 
-- style:
-- refactor:
-- perf:
-- test:
+- `feat`: nova feature
+- `build`: mudanças que afetam o processo de build 
+- `chore`: instalação de lib, ou configuração de ferramentas
+- `ci`: configuração de script ou processos do pipeline
+- `docs`: atualização de documentação
+- `style`: mudanças que afetam o estilo do código, formatação etc
+- `refactor`: alteração ou melhoria de código que não seja bug ou feature
+- `perf`: melhorias de código que melhoram a performance
+- `test`: adicionado testes ou correção de algum
 
 Example:
 

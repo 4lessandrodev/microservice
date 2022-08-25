@@ -1,8 +1,8 @@
 {
   "name": "nest-ddd-template-backend",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Template NodeJS para aplicações backend",
+  "author": "time financeiro einstein",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

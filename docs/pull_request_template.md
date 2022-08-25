@@ -13,12 +13,12 @@ Provide instructions so we can reproduce.
 Please also list any relevant details for your test configuration
 - [ ] Test A
 - [ ] Test B
+
 **Test Configuration**:
 * system: (windows, linux, mac)
 * node version:
 * npm version:
 * environment: (qas, dev)
-* SDK:
 # Checklist:
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
@@ -30,3 +30,4 @@ Please also list any relevant details for your test configuration
 - [ ] I have added variables on Azure Environment Lib (dev, qas, uat, prod)
 - [ ] I have updated app version on package.json
 - [ ] I have updated docs json on project
+- [ ] I have updated CHANGELOG file with my changes
