@@ -172,12 +172,17 @@ GET http://localhost:3000/docs
 
 ```
 
+---
+
 ## Variáveis
 
 As variáveis de ambiente devem ser definidas no arquivo
 
 `src/shared/env.ts`
 
+Após definir as variáveis no env.ts você pode definí-las no arquivo .env
+
+---
 
 ## Commits
 
