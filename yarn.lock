@@ -2269,10 +2269,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-einstein-cli@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.3.tgz#ca7ef0191e6cf112f1e6040b3c525106fcd97d2a"
-  integrity sha512-uQ9+sdbB/tXg8y6rCIawoeiJHdAFhgjN37jCttX6hqzsaC4HhAVmEXUULDdoW7+iAqqFw2GV6GSMMm4nq+NKwA==
+einstein-cli@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.6.tgz#d1c045bf110b6d5f7b08a6b82bc5681d66bc3dc3"
+  integrity sha512-dDkZLBLPWI0JOiL54e6rGJDbOBwcMOTKKyo+Ug3nhAX9DgO1DfAXNINYrUiL/6LTL0wqE5kUjb53+XdeTwFZvw==
 
 electron-to-chromium@^1.4.202:
   version "1.4.230"

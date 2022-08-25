@@ -1,11 +1,11 @@
 module:
-	yarn einstein-cli sample;
+	yarn einstein sample;
 
 resource:
-	yarn einstein-cli;
+	yarn einstein;
 
 mod:
-	yarn einstein-cli sample;
+	yarn einstein sample;
 
 res:
-	yarn einstein-cli;
+	yarn einstein;
