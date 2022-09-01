@@ -1,4 +1,4 @@
-# Einstein Template - Backend NestJS
+# Einstein Template - Rest Api
 
 Este template possui comandos automatizados para gerar componentes para a construção do backend.
 Os comandos podem ser executados com:
@@ -27,8 +27,7 @@ Utilizando a cli com yarn
 $ yarn einstein
 
 ```
-
-![](./docs/einstein-cli.png)
+![](docs/doc.png)
 
 Utilizando a cli com npm
 
