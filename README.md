@@ -5,7 +5,6 @@ Os comandos podem ser executados com:
 
 - `yarn` 
 - `npm`
-- `make`
 
 ---
 
@@ -36,34 +35,6 @@ Utilizando a cli com npm
 ```sh
 
 $ npm run einstein
-
-```
-
-Utilizando a cli com make.
-
-Existem algumas opções pré-definidas.
-
-- Para criar um módulo
-
-```sh
-
-$ make module
-
-# Ou
-
-$ make mod
-
-```
-
-- Para criar um recurso
-
-```sh
-
-$ make resource
-
-# Ou
-
-$ make res
 
 ```
 
