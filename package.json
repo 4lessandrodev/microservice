@@ -40,7 +40,7 @@
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@nestjs/cli": "^9.0.0",
-    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/schematics": "^9.0.2",
     "@nestjs/testing": "^9.0.0",
     "@types/express": "^4.17.13",
     "@types/jest": "28.1.4",
