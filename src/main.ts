@@ -1,23 +1,19 @@
 import { NestFactory } from '@nestjs/core';
-import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import { PORT } from '@shared/config/env';
-import { apiDetails } from '@shared/doc-types';
-import helmet from 'helmet';
+import { Transport } from '@nestjs/microservices';
+import { URL_CONNECTION } from '@shared/config/env';
+import { NO_ACK, QUEUE_NAME, TRANSPORTER } from '@shared/config/env';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.createMicroservice(AppModule, {
+    transport: Transport[TRANSPORTER],
+    options: {
+      urls: [URL_CONNECTION],
+      queue: QUEUE_NAME,
+      noAck: NO_ACK,
+    },
+  });
 
-  const config = new DocumentBuilder()
-    .setTitle('Documentação Template Api')
-    .setDescription(apiDetails)
-    .setVersion('1.0')
-    .build();
-  const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('docs', app, document);
-
-  app.use(helmet());
-
-  await app.listen(PORT);
+  await app.listen();
 }
 bootstrap();

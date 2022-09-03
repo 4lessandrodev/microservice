@@ -3,7 +3,14 @@ import { ApiCheck } from '@shared/doc-types';
 
 @Injectable()
 export class AppService {
-  healthCheck(): ApiCheck {
-    return { status: 'ok', date: new Date() };
+  private status: ApiCheck = {} as ApiCheck;
+
+  ping(): ApiCheck {
+    this.status = { status: 'ok', date: new Date() };
+    return this.status;
+  }
+
+  pong(): ApiCheck {
+    return this.status;
   }
 }

@@ -1,4 +1,4 @@
-# Einstein Template - Rest Api
+# Einstein Template - Microservice
 
 Este template possui comandos automatizados para gerar componentes para a construção do backend.
 Os comandos podem ser executados com:
@@ -8,6 +8,11 @@ Os comandos podem ser executados com:
 
 ---
 
+Este microservice utiliza o conceito de Message Broker
+
+![](docs/microservice-doc.png)
+
+---
 ## Como utilizar a cli
 
 Antes de tudo instale as dependências
@@ -120,27 +125,29 @@ $ yarn start
 
 ```
 
-Para verificar se a aplicação está ok
+Para verificar se a aplicação está ok.
+Esta aplicação é um microservice que se conecta ao broker message do rabbitmq.
+Para subir um broker utilize o docker-compose
+
+```sh
+
+$ docker-compose up -d
 
 ```
 
-GET http://localhost:3000/healthCheck
+Acesse o broker
 
 ```
 
----
-
-## Documentação
-
-Este template já está configurado com swagger
-
-Após iniciar a aplicação basta acessar o endpoint
+GET http://localhost:15672/
 
 ```
 
-GET http://localhost:3000/docs
+Verificar se a aplicação se conectou com o broker
 
-```
+Acesse o painel
+
+![](docs/microservice.png)
 
 ---
 
