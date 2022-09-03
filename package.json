@@ -30,7 +30,7 @@
     "@nestjs/platform-express": "^9.0.0",
     "amqp-connection-manager": "^4.1.6",
     "amqplib": "^0.10.3",
-    "env-var": "^7.1.1",
+    "env-var": "^7.2.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",

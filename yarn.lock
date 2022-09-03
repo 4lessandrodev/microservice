@@ -2356,10 +2356,10 @@ env-cmd@^10.1.0:
     commander "^4.0.0"
     cross-spawn "^7.0.0"
 
-env-var@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/env-var/-/env-var-7.1.1.tgz#c1697f8dfded0b54418dc9bbd78a82119910e57c"
-  integrity sha512-4+vvlq+wwGQNwY/nI3/+Ojc1MKHCmITRJ6VWkQzDtMD6fAEb60ACRUCnlIAonMKW9YzqYmYxbyVu9vTb++yNRg==
+env-var@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/env-var/-/env-var-7.2.0.tgz#345539e4d26b67d326576299945fa09bc608415c"
+  integrity sha512-dHaM26kp6PHNJLldy+D1y7vNFafwaY77g6SuQbfuokX3roM0yxnCiye5rhGjsY9u21n5MgGIs6v7AVJ6xAIVhg==
 
 error-ex@^1.3.1:
   version "1.3.2"
