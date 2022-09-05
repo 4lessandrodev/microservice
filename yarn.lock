@@ -2360,10 +2360,13 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-einstein-cli@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.6.tgz#d1c045bf110b6d5f7b08a6b82bc5681d66bc3dc3"
-  integrity sha512-dDkZLBLPWI0JOiL54e6rGJDbOBwcMOTKKyo+Ug3nhAX9DgO1DfAXNINYrUiL/6LTL0wqE5kUjb53+XdeTwFZvw==
+einstein-cli@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.18.tgz#24eacb7bdb8c73ab84cd8947ef95ff882e4973ad"
+  integrity sha512-4pmlO9NSYcMZGrURjcjwF8YnK/3J5nY64UYgh6hNt4MrijWt24gq2o4KEflC6mK63Wf9SHsn81ZdoHcqqlwUVA==
+  dependencies:
+    module-alias "^2.2.2"
+    tar "^6.1.11"
 
 electron-to-chromium@^1.4.202:
   version "1.4.230"
@@ -4118,6 +4121,11 @@ mkdirp@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+module-alias@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
+  integrity sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==
 
 ms@2.0.0:
   version "2.0.0"
