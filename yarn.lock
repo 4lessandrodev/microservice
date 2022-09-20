@@ -873,10 +873,10 @@
     tslib "2.4.0"
     uuid "8.3.2"
 
-"@nestjs/core@^9.0.0":
-  version "9.0.11"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-9.0.11.tgz#1bed969d81685f17d4a01f854c43a222dd3e13ce"
-  integrity sha512-DYyoiWSGebDAG8WSfG/ue88HBU39kAJTi2YXftWdVSl1LFveV+pwKY83P2qX0ND38TS8WktFYpaMkXslf97BBQ==
+"@nestjs/core@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-9.1.1.tgz#80bf48932cbd31ce5dbc1c89e7cffe28355f3dcf"
+  integrity sha512-IFL9DAGFAFgVvIQDoXh248KH8Hqwj6x3Nz1ud4V1Gzv6FnsjANe4nhUAO9IJbUydtFAiNuclXC5gs2vbhBtqqg==
   dependencies:
     "@nuxtjs/opencollective" "0.3.2"
     fast-safe-stringify "2.1.1"
@@ -884,7 +884,7 @@
     object-hash "3.0.0"
     path-to-regexp "3.2.0"
     tslib "2.4.0"
-    uuid "8.3.2"
+    uuid "9.0.0"
 
 "@nestjs/microservices@^9.0.11":
   version "9.0.11"
@@ -1139,11 +1139,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/node@*", "@types/node@>=12", "@types/node@^18.7.17":
+"@types/node@*", "@types/node@^18.7.17":
   version "18.7.17"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.17.tgz#52438111ea98f77475470fc62d79b9eb96bb2c92"
   integrity sha512-0UyfUnt02zIuqp7yC8RYtDkp/vo8bFaQ13KkSEvUAohPOAlnVNbj5Fi3fgPSuwzakS+EvvnnZ4x9y7i6ASaSPQ==
-
 
 "@types/node@^14.0.0":
   version "14.18.28"
@@ -5520,6 +5519,11 @@ uuid@8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
