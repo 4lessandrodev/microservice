@@ -886,10 +886,10 @@
     tslib "2.4.0"
     uuid "9.0.0"
 
-"@nestjs/microservices@^9.0.11":
-  version "9.0.11"
-  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-9.0.11.tgz#bab0d5cd05cb749f434ec5a196bfd4d427614b7c"
-  integrity sha512-SalP+y96HAsrNnPkt+RQAYlPSzofs/D90Y0ZS9oveBiCQhezKSnkBZ7Qpv3uLFbs6TsL/VHG9nVoQC6aiZA0ww==
+"@nestjs/microservices@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-9.1.1.tgz#deda770ed2a8ddd73b3b5c5c39b515b74f5f997d"
+  integrity sha512-yRcnzyaqKRbZIHyY8XuIY7U+c6jEMBR1xI9PMDOt9NYdqfzi4m66w1caXJqyLa+Exdti0TXOWrL9PgjU1Q/0Zg==
   dependencies:
     iterare "1.2.1"
     tslib "2.4.0"
