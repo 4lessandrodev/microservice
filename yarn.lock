@@ -841,10 +841,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@nestjs/cli@^9.1.3":
-  version "9.1.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-9.1.3.tgz#b1891268e20ecc1b55d730ec3013f1a3683fca64"
-  integrity sha512-ILACqDDrplvOb7HwCFJCvghMyXSHPwhqzxzant4AwYzu3BGsZVQG7TRNPxu+qfHZH6o4EBglpBwkb+8vbnVBKA==
+"@nestjs/cli@^9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-9.1.4.tgz#a5a88d02d90a5eff279aa00af3c84ff74882e63c"
+  integrity sha512-cvN4DcLzaqFzKRmpU3tOeLmw7+1p4XXsFLyWgteId0Szf6cAk5KJpD5jl2Kw7f39vNw9Pss8yiJ1q1CD/fcbwQ==
   dependencies:
     "@angular-devkit/core" "14.2.2"
     "@angular-devkit/schematics" "14.2.2"
@@ -2891,11 +2891,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-
-functional-red-black-tree@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
-  integrity sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==
 
 gauge@^3.0.0:
   version "3.0.2"
