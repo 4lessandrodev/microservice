@@ -921,10 +921,10 @@
     jsonc-parser "3.2.0"
     pluralize "8.0.0"
 
-"@nestjs/testing@^9.1.2":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.1.2.tgz#98925cafab0cc92e0492d37ec17a6a7739b46a21"
-  integrity sha512-BfwERdTppE4oz6qxCNJVo0kaRH2FO7mipooedT2nDtYW3krGZ8978odmGdpVgNz1xwqKDH3Y/68frs5oW2CTZw==
+"@nestjs/testing@^9.1.4":
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.1.4.tgz#8bb190f07356c796b828fba35018498d5ce8ab09"
+  integrity sha512-gO6b9QJyUajh38DNdss9gSE0UO7x60Jh10W4SwHEjQT1W+yxaEWr3aLyuQItTvUVY6C28XKFLTykMpr8GO28Ug==
   dependencies:
     tslib "2.4.0"
 
@@ -2891,11 +2891,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-
-functional-red-black-tree@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
-  integrity sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==
 
 gauge@^3.0.0:
   version "3.0.2"
