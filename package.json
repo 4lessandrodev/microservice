@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.1.6",
-    "@nestjs/microservices": "^9.1.4",
     "@nestjs/core": "^9.1.4",
+    "@nestjs/microservices": "^9.1.4",
     "@nestjs/platform-express": "^9.1.4",
     "amqp-connection-manager": "^4.1.7",
     "amqplib": "^0.10.3",
@@ -61,6 +61,7 @@
     "ts-loader": "^9.4.1",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.1.0",
+    "types-ddd-cli": "^1.0.2",
     "typescript": "^4.8.4"
   }
 }
