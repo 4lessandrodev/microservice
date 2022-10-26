@@ -1,8 +1,8 @@
 {
-  "name": "nest-ddd-template-backend",
+  "name": "microservice",
   "version": "0.0.1",
-  "description": "Template NodeJS para aplicações rest api backend",
-  "author": "time financeiro einstein",
+  "description": "Template NodeJS para aplicações microservice backend",
+  "author": "4lessandrodev",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -34,7 +34,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.5.7",
-    "types-ddd": "^3.2.1"
+    "types-ddd": "^3.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
@@ -48,7 +48,6 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.41.0",
-    "einstein-cli": "^0.0.18",
     "env-cmd": "^10.1.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.3.0",
