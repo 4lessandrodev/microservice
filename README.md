@@ -1,4 +1,4 @@
-# Einstein Template - Microservice
+# Template - Microservice
 
 Este template possui comandos automatizados para gerar componentes para a construção do backend.
 Os comandos podem ser executados com:
