@@ -5435,10 +5435,10 @@ types-ddd-cli@^1.0.2:
     module-alias "^2.2.2"
     tar "^6.1.11"
 
-types-ddd@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.3.0.tgz#b50fdedd22b16564e6a3d5324980237b097f1d99"
-  integrity sha512-MpgtOiM+YEHCmpDwQEJdtaXTFRwdNncztWtLd7jkdZuV5mYruqzvJ6gP8RHfTtSOOtg+Bc0DL/XqpQ433oZHwA==
+types-ddd@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.3.2.tgz#7c64e46ad4fe675e3a4cce70645120025a0e792c"
+  integrity sha512-VtR1g6Che04yn/nztK0TwCHi7g8Yh6vzdW3kiWSOS3K7bNQz4tae/Fb3I1v4/yJ5UmeeDlSkxii3ogIXRhv9yQ==
   dependencies:
     bcrypt "^5.0.1"
     pino "^8.6.1"
