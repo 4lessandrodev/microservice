@@ -24,7 +24,7 @@
     "posteinstein": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix --quiet"
   },
   "dependencies": {
-    "@nestjs/common": "^9.2.0",
+    "@nestjs/common": "^9.2.1",
     "@nestjs/core": "^9.2.1",
     "@nestjs/microservices": "^9.2.1",
     "@nestjs/platform-express": "^9.2.1",
