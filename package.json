@@ -37,7 +37,7 @@
     "types-ddd": "^3.4.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
+    "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@nestjs/cli": "^9.1.8",
     "@nestjs/schematics": "^9.0.4",
