@@ -4820,10 +4820,10 @@ reusify@^1.0.4:
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rich-domain@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.15.0.tgz#229ee46ba73a37903a5c16441c7ae665d362ce37"
-  integrity sha512-nOTnqL9ONSKdKnaifv3XYqXyunhlov12O7KaDjwpINLsKlXVjEANG6S4zboO62rUUXBZHT3BOz8crlIimCqlCw==
+rich-domain@^1.17.0:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.17.1.tgz#fb15cdd7711ae4a94c7364a592a806108caae4d0"
+  integrity sha512-04voPugWOl9ujttvIxghr5ic0Ln35NeoH7HP/aBuzqSCa4SCAPLYsiEHWeMriElR9ZhaZ5X0Y/MW5HJyUuC4AQ==
 
 rimraf@3.0.2, rimraf@^3.0.0, rimraf@^3.0.2:
   version "3.0.2"
@@ -5514,15 +5514,15 @@ types-ddd-cli@^1.0.2:
     module-alias "^2.2.2"
     tar "^6.1.11"
 
-types-ddd@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.4.0.tgz#f83ed3bd7715a080b0f447dbd9c4a01b834ebe22"
-  integrity sha512-gI7tNPh9bBWVobZ0TX4FerttjMTtVEWtedsxxWjtqG9M+x2yJSgrlWR2MP9G7VbdSrmu2i93jnXtLyX+uR/mDA==
+types-ddd@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.5.0.tgz#bf390d2cbd0246506597e5b2a61e0e9ad6d4cde4"
+  integrity sha512-XAi0pvxZn/8DJHBF2dG6Wb/hPpS16o2EnA/J8/EBHxUa66Y7XtzW5Jh0RmkjQixyG60UK52bHiNMynYzSBQv+g==
   dependencies:
     bcrypt "^5.0.1"
     pino "^8.8.0"
     pino-pretty "^9.1.1"
-    rich-domain "^1.15.0"
+    rich-domain "^1.17.0"
 
 typescript@4.9.4:
   version "4.9.4"
