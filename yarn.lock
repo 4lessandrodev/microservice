@@ -1569,10 +1569,10 @@ ajv@^6.10.0, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-amqp-connection-manager@^4.1.10:
-  version "4.1.10"
-  resolved "https://registry.yarnpkg.com/amqp-connection-manager/-/amqp-connection-manager-4.1.10.tgz#90343303ce7abaeaaf852a9de26bc9e4eee078a0"
-  integrity sha512-0289u5PQ/0s8o9Gbq3YZw7euIDp2ETjvTwams/yletCcTJC+HyK2DiMe8gRK688tCufdou5avoFCWDlTN9QeRQ==
+amqp-connection-manager@^4.1.11:
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/amqp-connection-manager/-/amqp-connection-manager-4.1.11.tgz#c5bab12a9fcd01f65ffade5278df208d85e6d6ec"
+  integrity sha512-amk3oWAFglMdX5PKSjpkrp/uVBWaEp9CfwQ/6jMgoVQx0DdU7G0aM8X1VilZfOBPwBSbOwUYS1c2LCwjJcdN/Q==
   dependencies:
     promise-breaker "^6.0.0"
 
