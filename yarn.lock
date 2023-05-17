@@ -4668,10 +4668,10 @@ pino-abstract-transport@^1.0.0, pino-abstract-transport@v1.0.0:
     readable-stream "^4.0.0"
     split2 "^4.0.0"
 
-pino-pretty@^9.1.1:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-9.1.1.tgz#e7d64c1db98266ca428ab56567b844ba780cd0e1"
-  integrity sha512-iJrnjgR4FWQIXZkUF48oNgoRI9BpyMhaEmihonHeCnZ6F50ZHAS4YGfGBT/ZVNsPmd+hzkIPGzjKdY08+/yAXw==
+pino-pretty@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-10.0.0.tgz#fd2f307ee897289f63d09b0b804ac2ecc9a18516"
+  integrity sha512-zKFjYXBzLaLTEAN1ayKpHXtL5UeRQC7R3lvhKe7fWs7hIVEjKGG/qIXwQt9HmeUp71ogUd/YcW+LmMwRp4KT6Q==
   dependencies:
     colorette "^2.0.7"
     dateformat "^4.6.3"
@@ -5023,10 +5023,10 @@ reusify@^1.0.4:
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rich-domain@^1.17.0:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.17.1.tgz#fb15cdd7711ae4a94c7364a592a806108caae4d0"
-  integrity sha512-04voPugWOl9ujttvIxghr5ic0Ln35NeoH7HP/aBuzqSCa4SCAPLYsiEHWeMriElR9ZhaZ5X0Y/MW5HJyUuC4AQ==
+rich-domain@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.18.0.tgz#2db495620a7d38dfa763c134725e2a7fd0ba9911"
+  integrity sha512-DsWy7HzPcd/fNWFm+jaR8Hjb84seGrGOAYjwOWrDGEe3qlbHhZD3zP0IZ32S04qGWxGO1OAM4RzfGxsjTmdO0A==
 
 rimraf@4.4.1:
   version "4.4.1"
@@ -5751,15 +5751,15 @@ types-ddd-cli@^1.0.2:
     module-alias "^2.2.2"
     tar "^6.1.11"
 
-types-ddd@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.5.0.tgz#bf390d2cbd0246506597e5b2a61e0e9ad6d4cde4"
-  integrity sha512-XAi0pvxZn/8DJHBF2dG6Wb/hPpS16o2EnA/J8/EBHxUa66Y7XtzW5Jh0RmkjQixyG60UK52bHiNMynYzSBQv+g==
+types-ddd@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.6.0.tgz#e072c2425fcf83dcd37e7131aee95f86df7aee04"
+  integrity sha512-cZzkqp+N0uuz5XO73W9YMvVZfWtTHdd1uBJm56phDm0Imb5HeN0HocmBLMbpjluPuaSK96i7nhykRlcUMTiYHw==
   dependencies:
     bcrypt "^5.0.1"
     pino "^8.8.0"
-    pino-pretty "^9.1.1"
-    rich-domain "^1.17.0"
+    pino-pretty "^10.0.0"
+    rich-domain "^1.18.0"
 
 typescript@4.9.5, typescript@^4.9.5:
   version "4.9.5"
