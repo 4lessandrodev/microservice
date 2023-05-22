@@ -32,7 +32,7 @@
     "amqplib": "^0.10.3",
     "env-var": "^7.3.1",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^5.0.0",
+    "rimraf": "^5.0.1",
     "rxjs": "^7.8.1",
     "types-ddd": "^3.6.0"
   },
