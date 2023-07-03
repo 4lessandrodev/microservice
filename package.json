@@ -58,7 +58,7 @@
     "source-map-support": "^0.5.20",
     "supertest": "^6.3.3",
     "ts-jest": "28.0.8",
-    "ts-loader": "^9.4.2",
+    "ts-loader": "^9.4.4",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.2.0",
     "types-ddd-cli": "^1.0.2",
