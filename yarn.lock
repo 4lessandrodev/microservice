@@ -4833,10 +4833,10 @@ pino-abstract-transport@^1.0.0, pino-abstract-transport@v1.0.0:
     readable-stream "^4.0.0"
     split2 "^4.0.0"
 
-pino-pretty@^10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-10.0.1.tgz#54a11182068949ff3069f1f7857f297a14926e58"
-  integrity sha512-yrn00+jNpkvZX/NrPVCPIVHAfTDy3ahF0PND9tKqZk4j9s+loK8dpzrJj4dGb7i+WLuR50ussuTAiWoMWU+qeA==
+pino-pretty@^10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-10.2.0.tgz#c674a153e15c08d7032a826d0051d786feace1d9"
+  integrity sha512-tRvpyEmGtc2D+Lr3FulIZ+R1baggQ4S3xD2Ar93KixFEDx6SEAUP3W5aYuEw1C73d6ROrNcB2IXLteW8itlwhA==
   dependencies:
     colorette "^2.0.7"
     dateformat "^4.6.3"
@@ -4858,10 +4858,10 @@ pino-std-serializers@^6.0.0:
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.0.0.tgz#4c20928a1bafca122fdc2a7a4a171ca1c5f9c526"
   integrity sha512-mMMOwSKrmyl+Y12Ri2xhH1lbzQxwwpuru9VjyJpgFIH4asSj88F2csdMwN6+M5g1Ll4rmsYghHLQJw81tgZ7LQ==
 
-pino@^8.8.0:
-  version "8.8.0"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.8.0.tgz#1f0d6695a224aa06afc7ad60f2ccc4772d3b9233"
-  integrity sha512-cF8iGYeu2ODg2gIwgAHcPrtR63ILJz3f7gkogaHC/TXVVXxZgInmNYiIpDYEwgEkxZti2Se6P2W2DxlBIZe6eQ==
+pino@^8.14.2:
+  version "8.14.2"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-8.14.2.tgz#99148b3400527fec168691044ba367cc7b7cd605"
+  integrity sha512-zKu9aWeSWTy1JgvxIpZveJKKsAr4+6uNMZ0Vf0KRwzl/UNZA3XjHiIl/0WwqLMkDwuHuDkT5xAgPA2jpKq4whA==
   dependencies:
     atomic-sleep "^1.0.0"
     fast-redact "^3.1.1"
@@ -5193,10 +5193,10 @@ reusify@^1.0.4:
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rich-domain@^1.18.2:
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.18.2.tgz#494afd12c439224f47c058675254993f4ea7ceef"
-  integrity sha512-r4JujZrtHYAN/u3dwXuT7ZHDdU+QzXy+5SUSIXACis9fnoQD0PQuFkpBEOMEMnX+FWzTnlU6M39i9dscx5IpEg==
+rich-domain@^1.18.3:
+  version "1.18.3"
+  resolved "https://registry.yarnpkg.com/rich-domain/-/rich-domain-1.18.3.tgz#8ccb6ff62a1d9c631962cb969eb6e5e8ca8b9363"
+  integrity sha512-q+L6DEk8VPx9EXr0mLHkCiwRUbaH18ES26vjZJwCSFhgzkjT5Qbdez7QXFngDxOF9EF6fJQUG3jAz3t/8jE+Wg==
 
 rimraf@4.4.1:
   version "4.4.1"
@@ -5944,15 +5944,15 @@ types-ddd-cli@^1.0.2:
     module-alias "^2.2.2"
     tar "^6.1.11"
 
-types-ddd@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.6.2.tgz#b10f5ff4691d3a75b7f5711e5d4c9301c5cf89dd"
-  integrity sha512-RdkWPo54tluF6cAYwbhJkQiPOvGLqGB4IqSWiV5LyjlsGCINHOY7k5uUS9GNQLmMIDtzHyOqQedmUthcmTl1Fw==
+types-ddd@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/types-ddd/-/types-ddd-3.6.3.tgz#3b32c9252c570b80ca6bd3ddd0a56b7e2cbb0aa9"
+  integrity sha512-uCXIGjsWvBCnZbgpNCZPG0d9Kx9cBKW1oakcFw4KuUjKCC1X+Wu+YJ3Kpx7nP3HN//4layBKu0JPPz3g07YYqQ==
   dependencies:
     bcrypt "^5.0.1"
-    pino "^8.8.0"
-    pino-pretty "^10.0.1"
-    rich-domain "^1.18.2"
+    pino "^8.14.2"
+    pino-pretty "^10.2.0"
+    rich-domain "^1.18.3"
 
 typescript@5.1.6, "typescript@^4.6.4 || ^5.0.0", typescript@^5.1.6:
   version "5.1.6"
